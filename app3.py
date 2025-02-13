@@ -31,8 +31,8 @@ def run_flow(message: str, endpoint: str) -> dict:
         return {"error": str(e)}
 
 # Streamlit UI
-st.title("Langflow AI Chatbot")
-st.write("This chatbot interacts with a Langflow-powered AI model.")
+st.title("PLC AI Assistant🤖")
+st.write("Ask anything about PLC Annual reports...")
 
 # User Input
 user_input = st.text_input("Enter your message:", "")
