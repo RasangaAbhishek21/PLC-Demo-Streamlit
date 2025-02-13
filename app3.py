@@ -9,8 +9,8 @@ except ImportError:
     upload_file = None
 
 # Langflow API Configuration
-BASE_API_URL = "http://127.0.0.1:7860"
-FLOW_ID = "7f7c0f0b-053b-42ac-bed1-e0256d56468f"
+BASE_API_URL = "http://13.233.91.164:7860"
+FLOW_ID = "a3ea57a0-2c63-4544-a3e5-0dbd8cc1628c"
 ENDPOINT = ""  # You can set a specific endpoint name in the flow settings
 
 def run_flow(message: str, endpoint: str) -> dict:
