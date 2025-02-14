@@ -9,7 +9,7 @@ except ImportError:
     upload_file = None
 
 # Langflow API Configuration
-BASE_API_URL = "http://65.1.94.107:7861"
+BASE_API_URL = "http://13.203.79.135:7860"
 FLOW_ID = "a3ea57a0-2c63-4544-a3e5-0dbd8cc1628c"
 ENDPOINT = ""  # You can set a specific endpoint name in the flow settings
 
