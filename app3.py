@@ -9,7 +9,7 @@ except ImportError:
     upload_file = None
 
 # Langflow API Configuration
-BASE_API_URL = "http://13.233.91.164:7860"
+BASE_API_URL = "http://65.1.94.107:7860"
 FLOW_ID = "a3ea57a0-2c63-4544-a3e5-0dbd8cc1628c"
 ENDPOINT = ""  # You can set a specific endpoint name in the flow settings
 
@@ -31,8 +31,8 @@ def run_flow(message: str, endpoint: str) -> dict:
         return {"error": str(e)}
 
 # Streamlit UI
-st.title("PLC AI Assistant🤖")
-st.write("Ask anything about PLC Annual reports...")
+st.title("Langflow AI Chatbot")
+st.write("This chatbot interacts with a Langflow-powered AI model.")
 
 # User Input
 user_input = st.text_input("Enter your message:", "")
